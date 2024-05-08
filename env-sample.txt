@@ -1,0 +1,13 @@
+# Search Service
+AZURE_SEARCH_SERVICE_ENDPOINT=https://[your-search-service].search.windows.net
+AZURE_SEARCH_INDEX=[search-index-name]
+AZURE_SEARCH_ADMIN_KEY=[Search-admin-key]
+
+# Blob connection string formats https://learn.microsoft.com/azure/search/search-howto-indexing-azure-blob-storage#supported-credentials-and-connection-strings
+BLOB_CONNECTION_STRING=
+BLOB_CONTAINER_NAME=[blob-container-name]
+
+# Used for azure-search-integrated-vectorization-sample
+AZURE_OPENAI_ENDPOINT=[your-openai-endpoint]
+AZURE_OPENAI_KEY=[azure-openai-key]
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT_ID=text-embedding-ada-002
